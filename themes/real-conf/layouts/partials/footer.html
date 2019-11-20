@@ -1,0 +1,26 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer>
+  <div class="container">
+      <div class="footer-left">
+        <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
+      </div>
+      <div class="footer-middle">
+        <ul class="list-inline social-buttons">
+
+          {{ range .Site.Params.footer.social }}
+            <li><a href="{{ .link }}" title="{{ .title }}"><i class="fa {{ .icon }}"></i></a></li>
+          {{ end }}
+
+        </ul>
+      </div>
+      <div class="footer-right">
+        <ul class="list-inline quicklinks">
+
+          {{ range .Site.Params.footer.quicklinks }}
+            <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
+          {{ end }}
+
+        </ul>
+      </div>
+  </div>
+</footer>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>REAL</title>
+    <link>https://sg.com.mx/real/</link>
+    <description>Recent content on REAL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    <lastBuildDate>Mon, 04 Nov 2019 08:42:12 -0600</lastBuildDate>
+    
+	<atom:link href="https://sg.com.mx/real/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tickets</title>
+      <link>https://sg.com.mx/real/info/boletos/</link>
+      <pubDate>Mon, 04 Nov 2019 08:42:12 -0600</pubDate>
+      
+      <guid>https://sg.com.mx/real/info/boletos/</guid>
+      <description>Adquiere tu boleto para participar en REAL.
+ </description>
+    </item>
+    
+    <item>
+      <title>Programa</title>
+      <link>https://sg.com.mx/real/info/programa/</link>
+      <pubDate>Sat, 02 Nov 2019 08:42:12 -0600</pubDate>
+      
+      <guid>https://sg.com.mx/real/info/programa/</guid>
+      <description>Agenda REAL tendrá un horario de 10 am a 4 pm. Habrá un solo track con presentaciones de 30 minutos cada una.
+Sesiones Las sesiones confirmadas hasta el momento son:
+ Tandem: No compliquemos la arquitectura si todavía no hay market fit, por Guillermo Siliceo. Bitso: El viaje para convertir una arquitectura monolítica en un monolito distribuido, por Enrique Zamudio. Provident: Gestión de arquitectura empresarial ágil, por Jusay Flores. Creditas Digital Platform: How we enabled business users to create new digital products with DSLs, por Evandro Silvestre.</description>
+    </item>
+    
+    <item>
+      <title>Código de Conducta</title>
+      <link>https://sg.com.mx/real/info/coc/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://sg.com.mx/real/info/coc/</guid>
+      <description>Al participar en el DataTón Anticorrupción hackathon ya sea como competidor, organizador, mentor o patrocinador, aceptas acatar este código de conducta, y cooperar con los organizadores del evento que lo hacen cumplir.
+La Versión Rápida SG se encarga de proporcionar una experiencia libre de acoso para todos, sin importar género, orientación sexual, discapacidad, edad, apariencia física, tamaño corporal, raza o religión. No toleramos el acoso de ningún tipo en nuestros asistentes.</description>
+    </item>
+    
+    <item>
+      <title>Preguntas frecuentes</title>
+      <link>https://sg.com.mx/real/info/preguntas-frecuentes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sg.com.mx/real/info/preguntas-frecuentes/</guid>
+      <description>El contenido de esta página se genera usando parámetros de config.toml [params.faq]. El layout es controlado por layouts/info/faq.html</description>
+    </item>
+    
+  </channel>
+</rss>

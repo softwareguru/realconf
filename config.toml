@@ -1,0 +1,215 @@
+# Site settings
+baseurl = "https://sg.com.mx/real"
+languageCode = "es-mx"
+defaultContentLanguage = "es"
+title = "REAL"
+theme = "real-conf"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-21077034-37"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+
+  # Metadata for search engines
+  name = "Muestra de casos reales de arquitectura de software"
+  description = """REAL es un evento donde se mostrarán distintos casos reales  
+  sobre arquitectura de software en organizaciones locales."""
+  image = "https://sg.com.mx/real/img/card.png"
+  twitter_user = "@RevistaSG"
+  email = "eventos@sg.com.mx"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "No se encontró esa página"
+    text = "Por favor visita [esta página](/)"
+
+  # Navigation
+  [params.navigation]
+    brand = "REAL"
+    # Optional logo as brand stored in img/
+    logo = "logo_top.svg"
+    info = "Acerca de"
+    team = "Conferencistas"
+ 
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. 
+
+    # postpended links
+
+    [[menu.postpend]]
+      url = "/info/programa"
+      name = "Programa"
+      weight = 4
+
+    [[menu.postpend]]
+      url = "/info/boletos"
+      name = "Boletos"
+      weight = 5
+
+  # Sección de hero en homepage. 
+  [params.hero]
+  # Dado que el layout es muy particular para este evento, el contenido está 
+  # hardcoded en layouts/partials/hero.html
+
+  # Sección de información clave
+  [params.info]
+    enable = true
+    title = "¿Qué es REAL?"
+    description= """REAL es un evento para mostrar casos reales sobre arquitectura de software en organizaciones locales.
+
+#### Justificación  
+Existe bastante información sobre mejores prácticas de arquitectura de software, pero como bien dijo Mike Tyson 
+\"*Todos tienen un plan ... hasta que son golpeados en la cara*\".
+
+También sobra información sobre el potencial de cierta plataforma o estrategia arquitectónica (APIs, contenedores, microservicios), 
+pero rara vez tenemos oportunidad de conocer a personas que las están implementando en escenarios reales y qué resultados han tenido. 
+
+<p class='balazo'>REAL no se trata sobre el potencial de cierta tecnología o estrategia arquitectónica, <br />sino sobre sus realidades.</p>
+
+#### Fecha y sede
+El evento se realizará el **viernes 29 de noviembre, de 10 a 15 hrs** en las instalaciones del Auditorio de Torre BBVA, ubicadas en:
+
+> Paseo de la Reforma 510 piso 12  
+> Col. Juárez  
+> 06600 CDMX
+
+#### Dirigido a
+El evento está dirigido a arquitectos de software, líderes técnicos, CTOs y desarrolladores de software con miras a ocupar 
+posiciones de liderazgo técnico.
+
+#### Quién organiza
+REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
+"""
+
+  # Team section
+  [params.team]
+    enable = true
+    center = true
+    title = "Conferencistas"
+
+    # Las fotos de los mentores se almacenan en 'static/img/team'.
+    # Tratar de utilizar imágenes de por lo menos 360px*360px.
+
+    [[params.team.members]]
+      img = "guillermo-siliceo.jpg"
+      name = "Guillermo Siliceo"
+      position = "CTO @ Tandem"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/guillermo-siliceo-trueba-78994b18/"]
+      ]
+
+    [[params.team.members]]
+      img = "jusay.jpg"
+      name = "Jusay Flores"
+      position = "Gerente de arquitectura y desarrollo de software @ Provident México"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/jusay-flores-ben%C3%ADtez-38768832/"]
+      ]
+
+    [[params.team.members]]
+      img = "evandro.jpg"
+      name = "Evandro Silvestre"
+      position = "Head of Engineering - Platform @ Creditas"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/evandrosilvestre/"]
+      ]
+
+    [[params.team.members]]
+      img = "sergio.jpg"
+      name = "Sergio Martínez"
+      position = "Sr. Java Developer @ Bitso"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/sergio-martinez-679a1228/"]
+      ]
+
+    [[params.team.members]]
+      img = "chochos.jpg"
+      name = "Enrique Zamudio"
+      position = "Sr. Software Engineer @ Bitso"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/enriquezamudiolopez/"]
+      ]
+
+  # Sponsors section
+  # Los logos de los aliados están en 'static/img/logos'.
+  # El tamaño ideal es 280px*80px
+    [params.sponsors]
+      enable = true
+      center = true
+
+    [params.sponsors1_list]
+      enable = true
+      title = "Organizado por"
+
+      [[params.sponsors1]]
+        logo = "sg.png"
+        link = "https://sg.com.mx"
+
+    [params.sponsors2_list]
+      enable = true
+      title = "Patrocinadores"
+
+      [[params.sponsors2]]
+        logo = "bbva.png"
+        link = "https://openinnovation.bbva.com"
+
+
+  #FAQ
+  [params.faq_list]
+    enable = true
+
+    [[params.faq]]
+      question = "¿Quiénes pueden participar?"
+      answer = """La participación es abierta, pero tenemos cupo limitado. 
+Consideramos que las personas que más pueden aportar son aquellas con experiencia en alguno de los 
+siguientes campos: ciencia de datos, desarrollo de software, comunicación, y diseño. 
+
+Si te interesa participar, por favor llena la forma de solicitud de participación. 
+"""
+
+    [[params.faq]]
+      question = "¿Proveen factura por los boletos?"
+      answer = "Sí, al registrarte indica tus datos de facturación, o envíanoslos por correo a administracion@sg.com.mx"
+
+    [[params.faq]]
+      question = "¿Necesito llevar el boleto impreso?"
+      answer = "No es necesario. Pero sí necesitas traer una identificación oficial (INE o pasaporte)."
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "REAL es otro fantástico evento de <a href='https://sg.com.mx'>Software Guru</a>."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/RevistaSG"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/softwareguru"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-envelope-o"
+      link = "mailto:eventos@sg.com.mx"
+      title = "Correo electrónico"
+
+    [[params.footer.quicklinks]]
+      text = "Código de Conducta"
+      link = "/real/info/coc"
+
+
