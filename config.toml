@@ -104,11 +104,11 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
     # Tratar de utilizar imágenes de por lo menos 360px*360px.
 
     [[params.team.members]]
-      img = "guillermo-siliceo.jpg"
-      name = "Guillermo Siliceo"
-      position = "CTO @ Tandem"
+      img = "misael_perez.jpg"
+      name = "Misael Pérez"
+      position = "Lead Developer @ Bunsan"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/guillermo-siliceo-trueba-78994b18/"]
+        ["fa-linkedin", "https://www.linkedin.com/in/misael-perez-19860789/"]
       ]
 
     [[params.team.members]]
@@ -142,6 +142,31 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/enriquezamudiolopez/"]
       ]
+
+    [[params.team.members]]
+      img = "luis_felipe.jpg"
+      name = "Luis Felipe Gutiérrez"
+      position = "Sr. Software Architect @ Konfio"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/luisgutierrezs/"]
+      ]
+
+    [[params.team.members]]
+      img = "laotshi.jpg"
+      name = "Gustavo Sánchez"
+      position = "Arquitecto de software @ Santander"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/laotshi/"]
+      ]
+
+    [[params.team.members]]
+      img = "diego_arcos.png"
+      name = "Diego Arcos"
+      position = "Technical Lead @ .Entropy"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/diego-arcos-4016a7132/"]
+      ]
+
 
   # Sponsors section
   # Los logos de los aliados están en 'static/img/logos'.
