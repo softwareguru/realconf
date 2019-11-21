@@ -152,19 +152,27 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
 
     [params.sponsors1_list]
       enable = true
-      title = "Organizado por"
+      title = "Patrocinadores"
 
       [[params.sponsors1]]
-        logo = "sg.png"
-        link = "https://sg.com.mx"
+        logo = "bbva.png"
+        link = "https://openinnovation.bbva.com"
+
+      [[params.sponsors1]]
+        logo = "microsoft.png"
+        link = "https://microsoft.com"
+
+      [[params.sponsors1]]
+        logo = "abiztar.png"
+        link = "https://www.abiztar.com.mx"
 
     [params.sponsors2_list]
       enable = true
-      title = "Patrocinadores"
+      title = "Organizado por"
 
       [[params.sponsors2]]
-        logo = "bbva.png"
-        link = "https://openinnovation.bbva.com"
+        logo = "sg.png"
+        link = "https://sg.com.mx"
 
 
   #FAQ

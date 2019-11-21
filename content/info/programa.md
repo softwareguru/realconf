@@ -10,11 +10,13 @@ REAL tendrá un horario de 10 am a 4 pm. Habrá un solo track con presentaciones
 ### Sesiones
 Las sesiones confirmadas hasta el momento son: 
 
-- Tandem: No compliquemos la arquitectura si todavía no hay market fit, por Guillermo Siliceo.
+- Creditas Digital Platform: How we enabled business users to create new digital products with DSLs, por Evandro 
 - Bitso: El viaje para convertir una arquitectura monolítica en un monolito distribuido, por Enrique Zamudio.
-- Provident: Gestión de arquitectura empresarial ágil, por Jusay Flores.
-- Creditas Digital Platform: How we enabled business users to create new digital products with DSLs, por Evandro Silvestre.
 - Konfio: Arquitectura y patrones serverless en la práctica, por Pipe Gutiérrez.
+- Cómo validamos 600 facturas por segundo en un miniservidor, por Misael Pérez.
+- Provident: Gestión de arquitectura empresarial ágil, por Jusay Flores.
+Silvestre.
+
 
 Pronto publicaremos los detalles de estas y otras sesiones.
 
