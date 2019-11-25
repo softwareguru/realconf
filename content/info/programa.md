@@ -36,13 +36,13 @@ draft: false
         </td>
     </tr>
     <tr>
-        <td class="horario">11:20 - 11:50</td>
+        <td class="horario">11:20 - 11:40</td>
         <td class="break">
             Coffee break
         </td>
     </tr>
     <tr>
-        <td class="horario">11:50 - 12:30</td>
+        <td class="horario">11:40 - 12:20</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#3">Bitso: El viaje para convertir una arquitectura monolítica en un monolito distribuido, por Enrique Zamudio</a>
             <p id="3" class="collapse">Estamos convirtiendo una arquitectura monolítica en un monolito distribuido y pasamos de administrar servidores y aplicaciones manualmente a usar kubernetes e implementar CD/CI.<br />
@@ -51,16 +51,16 @@ draft: false
         </td>
     </tr>
     <tr>
-        <td class="horario">12:30 - 13:10</td>
+        <td class="horario">12:20 - 13:00</td>
         <td class="sesion">
-            <a data-toggle="collapse" href="#4">Fundary: Arquitectura de servicios abierta, por Christian Strevel</a>
-            <p id="4" class="collapse">Estamos construyendo una arquitectura abierta en la nube para permitir a proveedores terceros incorporarse con nosotros para integrar sus servicios.<br />
-            <em>Puntos clave: Azure, APIs</em> 
+            <a data-toggle="collapse" href="#4">Círculo de crédito</a>
+            <p id="4" class="collapse">Por confirmar<br />
+            <em>Puntos clave: APIs</em> 
             </p>
         </td>
     </tr>
     <tr>
-        <td class="horario">13:10 - 13:50</td>
+        <td class="horario">13:00 - 13:40</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#5">Konfío: Arquitectura y patrones serverless en la práctica, por Luis Felipe Gutiérrez</a>
             <p id="5" class="collapse">Circuit breaker, como utilizar de una manera responsable servicios de 3eros y Fanout/sink, como brindar un single source of truth eficazmente despues de batch processing.<br />
@@ -69,13 +69,13 @@ draft: false
         </td>
     </tr>
     <tr>
-        <td class="horario">11:20 - 11:50</td>
+        <td class="horario">13:40 - 14:20</td>
         <td class="break">
             Lunch
         </td>
     </tr>
     <tr>
-        <td class="horario">14:30 - 15:10</td>
+        <td class="horario">14:20 - 15:00</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#6">Bunsan: Cómo validamos 600 facturas por segundo en un miniservidor, por Misael Pérez</a>
             <p id="6" class="collapse">La mayoría de los sistemas que usan los proveedores de facturación tienen arquitecturas muy complejas que requieren varios servidores para lograr un buen nivel de rendimiento.
@@ -85,7 +85,7 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
         </td>
     </tr>
     <tr>
-        <td class="horario">15:10 - 15:50</td>
+        <td class="horario">15:00 - 15:40</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#7">Gestión de identidad para socios comerciales, por Gustavo Sánchez</a>
             <p id="7" class="collapse">Sistema para gestionar la autenticación, autorización y auditoría para usuarios de socios comerciales de una institución financiera usando estándares como OAuth 2.0, IdP, JWT, JWS, JWE.<br />
@@ -94,7 +94,7 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
         </td>
     </tr>
     <tr>
-        <td class="horario">15:50 - 16:30</td>
+        <td class="horario">15:40 - 16:20</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#8">Provident: Gestión de arquitectura empresarial ágil, por Jusay Flores Silvestre</a>
             <p id="8" class="collapse">Se compartirá la experiencia que se tuvo para concretar un manejo de la arquitectura a nivel empresarial y de manera ágil usando diversas plataformas y prácticas que han dado por resultado la exitosa resolución de diversos retos arquitectónicos para soluciones reales al negocio y sus iniciativas estratégicas.<br />
@@ -102,5 +102,23 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
             </p>
         </td>
     </tr>
+    <tr>
+        <td class="horario">16:20 - 17:00</td>
+        <td class="sesion">
+            <a data-toggle="collapse" href="#9">Fundary: Arquitectura de servicios abierta, por Christian Strevel</a>
+            <p id="9" class="collapse">Estamos construyendo una arquitectura abierta en la nube para permitir a proveedores terceros incorporarse con nosotros para integrar sus servicios.<br />
+            <em>Puntos clave: Azure, APIs</em> 
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td class="horario">17:00 - 17:40</td>
+        <td class="sesion">
+            <a data-toggle="collapse" href="#10">Propiedades.com: Actualización de inventario, por Andrés Bravo y Carlos Velázquez</a>
+            <p id="10" class="collapse"><br />
+            </p>
+        </td>
+    </tr>
+
 </tbody>    
 </table>   
