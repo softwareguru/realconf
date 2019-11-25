@@ -53,7 +53,7 @@ draft: false
     <tr>
         <td class="horario">12:20 - 13:00</td>
         <td class="sesion">
-            <a data-toggle="collapse" href="#4">Círculo de crédito</a>
+            <a data-toggle="collapse" href="#4">Círculo de crédito, por Miguel Barragán</a>
             <p id="4" class="collapse">Por confirmar<br />
             <em>Puntos clave: APIs</em> 
             </p>

@@ -167,6 +167,30 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
         ["fa-linkedin", "https://www.linkedin.com/in/diego-arcos-4016a7132/"]
       ]
 
+    [[params.team.members]]
+      img = "strevel.png"
+      name = "Christian Strevel"
+      position = "Director de Tecnología @ Fundary"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/christian-strevel/"]
+      ]
+
+    [[params.team.members]]
+      img = "miguel-barragan.jpg"
+      name = "Miguel Barragán"
+      position = "Chief API Officer @ Círculo de Crédito"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/miguelbarragang/"]
+      ]
+
+    [[params.team.members]]
+      img = "carlos-velazquez.jpg"
+      name = "Carlos Velázquez"
+      position = "VP Ingeniería @ Propiedades.com"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/cvelag/"]
+      ]
+
 
   # Sponsors section
   # Los logos de los aliados están en 'static/img/logos'.
