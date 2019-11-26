@@ -114,8 +114,9 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
     <tr>
         <td class="horario">17:00 - 17:40</td>
         <td class="sesion">
-            <a data-toggle="collapse" href="#10">Propiedades.com: Actualización de inventario, por Andrés Bravo y Carlos Velázquez</a>
-            <p id="10" class="collapse"><br />
+            <a data-toggle="collapse" href="#10">Propiedades.com: Cómo pasar de procesamiento batch a streaming y no perderse en la concurrencia, por Andrés Bravo y Carlos Velázquez</a>
+            <p id="10" class="collapse">Mostraremos la experiencia de migrar el procesamiento de información en un sistema por lotes a un procesamiento en streaming y en la nube, las implicaciones técnicas, la arquitectura planteada y los problemas librados en esta aventura.<br />
+            Puntos clave: Apache Beam, Google Cloud, Kubernetes
             </p>
         </td>
     </tr>
