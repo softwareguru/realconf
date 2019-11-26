@@ -154,7 +154,7 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
     [[params.team.members]]
       img = "laotshi2.jpg"
       name = "Gustavo Sánchez"
-      position = "Arquitecto de software @ Santander"
+      position = "Arquitecto de software @ Everis"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/laotshi/"]
       ]
@@ -189,6 +189,14 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
       position = "VP Ingeniería @ Propiedades.com"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/cvelag/"]
+      ]
+
+    [[params.team.members]]
+      img = "andres-bravo.jpg"
+      name = "Andrés Bravo"
+      position = "Líder de Ingeniería de datos @ Propiedades.com"
+      social = [
+        ["fa-twitter", "https://twitter.com/BitsHoroscope"]
       ]
 
 
