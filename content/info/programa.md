@@ -87,15 +87,6 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
     <tr>
         <td class="horario">15:00 - 15:40</td>
         <td class="sesion">
-            <a data-toggle="collapse" href="#7">Autenticación para tipos de usuarios, por Gustavo Sánchez</a>
-            <p id="7" class="collapse">Sistema para gestionar la autenticación, autorización y auditoría para usuarios de socios comerciales usando estándares como OAuth 2.0, IdP, JWT, JWS, JWE.<br />
-            <em>Puntos clave: identidad, OAuth, JWT</em> 
-            </p>
-        </td>
-    </tr>
-    <tr>
-        <td class="horario">15:40 - 16:20</td>
-        <td class="sesion">
             <a data-toggle="collapse" href="#8">Provident: Gestión de arquitectura empresarial ágil, por Jusay Flores Silvestre</a>
             <p id="8" class="collapse">Se compartirá la experiencia que se tuvo para concretar un manejo de la arquitectura a nivel empresarial y de manera ágil usando diversas plataformas y prácticas que han dado por resultado la exitosa resolución de diversos retos arquitectónicos para soluciones reales al negocio y sus iniciativas estratégicas.<br />
             <em>Puntos clave: arquitectura empresarial, agile</em> 
@@ -103,7 +94,7 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
         </td>
     </tr>
     <tr>
-        <td class="horario">16:20 - 17:00</td>
+        <td class="horario">15:40 - 16:20</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#9">Fundary: Arquitectura de servicios abierta, por Christian Strevel</a>
             <p id="9" class="collapse">Estamos construyendo una arquitectura abierta en la nube para permitir a proveedores terceros incorporarse con nosotros para integrar sus servicios.<br />
@@ -112,7 +103,7 @@ En la plática se mostrará la arquitectura que se utilizo para lograr que se pu
         </td>
     </tr>
     <tr>
-        <td class="horario">17:00 - 17:40</td>
+        <td class="horario">16:20 - 17:00</td>
         <td class="sesion">
             <a data-toggle="collapse" href="#10">Propiedades.com: Cómo pasar de procesamiento batch a streaming y no perderse en la concurrencia, por Andrés Bravo y Carlos Velázquez</a>
             <p id="10" class="collapse">Mostraremos la experiencia de migrar el procesamiento de información en un sistema por lotes a un procesamiento en streaming y en la nube, las implicaciones técnicas, la arquitectura planteada y los problemas librados en esta aventura.<br />

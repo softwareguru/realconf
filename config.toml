@@ -152,14 +152,6 @@ REAL es ideado y producido por <a href="https://sg.com.mx">Software Guru</a>.
       ]
 
     [[params.team.members]]
-      img = "laotshi2.jpg"
-      name = "Gustavo Sánchez"
-      position = "Arquitecto de software @ Everis"
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/laotshi/"]
-      ]
-
-    [[params.team.members]]
       img = "diego_arcos.png"
       name = "Diego Arcos"
       position = "Technical Lead @ .Entropy"
